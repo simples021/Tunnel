@@ -33,9 +33,10 @@ Primeiro você deve criar seu arquivo de variável ambiente `.env` na pasta do p
 Exemplo:
 
 ```cl
-PORT=                // 3000
+PORT=                // 80
 NODE_ENV=            // "production"
 DATABASE_URL=        // "file:./database.db"
+ENCRYPT_FILES=       // "7223fd56-e21d-4191-8867-f3c67601122a"
 CSRF_SECRET=         //
 JWT_SECRET_KEY=      //
 JWT_SECRET_REFRESH=  //
@@ -68,7 +69,7 @@ npx prisma migrate deploy
 ### 4. Rodando o projeto
 
 ```bash
-npm run start
+npm run dev
 ```
 
 <br />
