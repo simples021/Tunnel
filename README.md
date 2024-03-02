@@ -81,5 +81,13 @@ npm install -g pm2
 ```bash
 pm2 start --name "DTunnel" npm -- run dev
 ```
+## Execução automática
+Após executar a aplicação, a gente pode configurar o mp2 para iniciar essa execução automáticamente.
+### 1. Crie o script de inicialização automática:
+```bash
+pm2 startup```
 
+### 2. Salve o status atual do mp2
+```bash
+pm2 save```
 <br />
