@@ -71,7 +71,7 @@ npx prisma migrate deploy
 ```bash
 npm run dev
 ```
-# Executando em modo produção
+## Executando em modo produção
 ### 1. Instale o pm2
 ```bash
 npm install -g pm2
