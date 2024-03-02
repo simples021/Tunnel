@@ -88,7 +88,7 @@ Após executar a aplicação, a gente pode configurar o mp2 para iniciar essa ex
 pm2 startup
 ```
 
-### 2. Salve o status atual do mp2
+### 2. Salve o status atual do pm2
 ```bash
 pm2 save
 ```
