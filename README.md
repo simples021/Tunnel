@@ -66,10 +66,20 @@ npx prisma generate
 npx prisma migrate deploy
 ```
 
-### 4. Rodando o projeto
+### 4. Testando o projeto
 
 ```bash
 npm run dev
+```
+# Executando em modo produção
+### 1. Instale o pm2
+```bash
+npm install -g pm2
+```
+
+### 2. Execute usando o pm2
+```bash
+pm2 start --name "DTunnel" npm -- run dev
 ```
 
 <br />
