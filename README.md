@@ -92,4 +92,5 @@ pm2 startup
 ```bash
 pm2 save
 ```
+Isso é tudo! Agora, mesmo quando reiniciar o VPS o painel ficará online automáticamente.
 <br />
